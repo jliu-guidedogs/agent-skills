@@ -63,7 +63,7 @@ Include optional skills (e.g. `graphify`):
 scripts\install-personal.bat --with-optional
 ```
 
-On Windows, the batch script uses directory junctions when possible (no admin required). If linking fails, enable **Developer Mode** (Settings → System → For developers) or run the script as Administrator.
+On Windows, the batch script tries directory junctions/symlinks first, then **copies the skill folder** if linking fails. It continues on errors and prints a linked/copied/failed/skipped summary at the end. Copied skills are snapshots — re-run the installer after repo updates, or enable Developer Mode for live symlinks.
 
 Restart Cursor, Claude Code, or start a new agent session after installing.
 

@@ -90,7 +90,7 @@ ln -sf ~/workspace/agent-skills/skills/thought-companion .cursor/skills/thought-
 
 | Skill | Purpose |
 |-------|---------|
-| `thought-companion` | Orchestrates structured thinking sessions (explore, challenge, decide, record) |
+| `thought-companion` | Orchestrates structured thinking sessions (explore, challenge, decide, learn, record, full) |
 | `brainstorm-diverge-converge` | Generate options, cluster themes, narrow choices |
 | `socratic` | Probe assumptions through layered questioning |
 | `decision-helper` | Compare options with decision frameworks |

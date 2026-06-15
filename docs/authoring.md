@@ -28,6 +28,15 @@ disable-model-invocation: true
 
 Keep `SKILL.md` under 500 lines. Link supporting files one level deep only.
 
+Validate all skill frontmatter without external packages:
+
+```bash
+python3 scripts/validate-skills.py
+```
+
+The repository validator accepts the cross-agent invocation fields used here, including
+`disable-model-invocation`, `user-invocable`, `argument-hint`, and `trigger`.
+
 ## Degrees of freedom
 
 - **High** - prose guidelines (code review, planning)

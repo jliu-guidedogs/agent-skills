@@ -13,6 +13,7 @@ CORE_SKILLS=(
   grill-me
   deep-understanding
   handoff
+  grill-architecture-decisions
 )
 
 OPTIONAL_SKILLS=(

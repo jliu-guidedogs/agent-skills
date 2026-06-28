@@ -81,6 +81,7 @@ call :link_skill idea-evaluator "%TARGET_ROOT%"
 call :link_skill grill-me "%TARGET_ROOT%"
 call :link_skill deep-understanding "%TARGET_ROOT%"
 call :link_skill handoff "%TARGET_ROOT%"
+call :link_skill grill-architecture-decisions "%TARGET_ROOT%"
 
 if "%WITH_OPTIONAL%"=="1" (
   call :link_skill graphify "%TARGET_ROOT%"

@@ -20,7 +20,8 @@ agent-skills/
     ├── grill-me/
     ├── deep-understanding/
     ├── handoff/
-    └── graphify/                   # optional
+    ├── graphify/                   # optional
+    └── grill-architecture-decisions/ 
 ```
 
 Each skill is one folder with a required `SKILL.md`.
@@ -98,6 +99,7 @@ ln -sf ~/workspace/agent-skills/skills/thought-companion .cursor/skills/thought-
 | `grill-me` | Interview through a design decision tree, one question at a time |
 | `deep-understanding` | Teach a topic incrementally with comprehension checks |
 | `handoff` | Compact a session into a handoff doc for the next agent |
+| `grill-architecture-decisions` | Stress-test architecture decisions and record resolved language or ADRs inline | None |
 
 Start with `/thought-companion` or attach `thought-companion` manually. It reads the other skills as needed.
 
@@ -107,7 +109,7 @@ Start with `/thought-companion` or attach `thought-companion` manually. It reads
 |-------|---------|-------------|
 | `graphify` | Build knowledge graphs from documents and code | `pip install graphifyy` (see skill for CLI usage) |
 
-Not installed by default. Use `--with-optional` with `install-personal.sh` or `install-personal.bat` when you want it.
+Not installed by default. Use `--with-optional` with `install-personal.sh` or `install-personal.bat` when you want optional skills.
 
 ## Add a new skill
 
